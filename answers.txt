@@ -1,0 +1,5 @@
+Q1: 9422cff33240208eb75346994f8fc34c3c4b2501
+Q2: 2
+Q3: git pull -- GitHub has newer commits, so I must fetch and integrate those changes before pushing my own commit.
+Q4: No. .gitignore does not remove passwords from commits that are already on GitHub; the password must be rotated and the exposed history handled.
+Q5: git branch -d old-fix; git push origin --delete old-fix
